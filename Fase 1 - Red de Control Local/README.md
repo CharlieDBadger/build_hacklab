@@ -6,8 +6,8 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
 
 ## 📦 Contenido
 
-- `setup_windows.ps1`: Script PowerShell para configurar VirtualBox y la red Host-Only en Windows.
-- `setup_kali.sh`: Script Bash para configurar automáticamente la red en Kali Linux usando DHCP.
+- `configurar_vbox_red_local y firewall.ps1`: Script PowerShell para configurar VirtualBox y la red Host-Only en Windows.
+- `red_kali.sh`: Script Bash para configurar automáticamente la red en Kali Linux usando DHCP.
 - `README.md`: Esta guía paso a paso.
 
 ---
