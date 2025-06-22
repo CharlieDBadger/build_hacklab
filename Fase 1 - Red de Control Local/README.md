@@ -2,7 +2,7 @@
 
 Este repositorio automatiza la configuración de red **Host-Only** entre una máquina anfitriona Windows y una máquina virtual **Kali Linux** en **VirtualBox**, ideal para entornos de laboratorio de ciberseguridad (pentesting, sniffing, análisis de tráfico, etc.).
 
----
+
 
 ## 📦 Contenido
 
@@ -10,7 +10,7 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
 - `red_kali.sh`: Script Bash para configurar automáticamente la red en Kali Linux usando DHCP.
 - `README.md`: Esta guía paso a paso.
 
----
+
 
 ## ⚙️ Requisitos
 
@@ -26,7 +26,7 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
 - Interfaz de red configurada para recibir IP por **DHCP**.
 - Máquina virtual ya creada y con adaptador de red disponible.
 
----
+
 
 ## ✅ Instrucciones de Uso
 
@@ -49,7 +49,7 @@ Este script:
 
 > ⚠️ **Importante:** Cambia `"Ethernet 2"` en el script si tu adaptador Host-Only tiene otro nombre. Puedes verlo con `Get-NetAdapter`.
 
----
+
 
 ### 🐧 2. Ejecutar en la VM Kali Linux
 
@@ -68,7 +68,7 @@ Este script:
 - Solicita IP al servidor DHCP del host.
 - Verifica conexión con el host (`ping 192.168.56.1`).
 
----
+
 
 ## 🎯 Resultado Esperado
 
@@ -76,7 +76,7 @@ Este script:
 - Puede comunicarse con el host (`192.168.56.1`) sin acceso a Internet.
 - Entorno funcional para prácticas de ciberseguridad en red local.
 
----
+
 
 ## 🧰 Solución de Problemas
 
@@ -87,15 +87,9 @@ Este script:
 | Sin conectividad Kali ↔ Host            | Revisa el firewall de Windows, la interfaz activa y haz ping entre máquinas. |
 | VM no llamada "Kali"                    | Cambia el nombre en el script o renombra tu VM en VirtualBox. |
 
----
+
 
 ## 📎 Notas adicionales
 
 - Puedes adaptar estos scripts para otros sistemas Linux o para múltiples VMs.
 - El script **no sobrescribirá** adaptadores existentes, solo crea uno si no existe.
-
----
-
-## 📜 Licencia
-
-MIT © [TuNombre]
