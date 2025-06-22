@@ -2,7 +2,7 @@
 
 Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dentro de VirtualBox. Es una máquina vulnerable ideal para practicar técnicas de pentesting en un entorno controlado.
 
--
+
 
 ## 🐚 1. Descargar Metasploitable 2 (.vmdk)
 
@@ -12,7 +12,7 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 - **Recomendación:** Mueve el archivo `.vmdk` a la misma carpeta donde tienes las demás máquinas virtuales de VirtualBox (puedes ver la ruta al crear una nueva VM, en el apartado **Carpeta**).  
   ⚠️ **Importante:** Si borras el archivo `.vmdk`, perderás la máquina del laboratorio.
 
----
+
 
 ## 📦 2. Crear nueva VM en VirtualBox
 
@@ -24,7 +24,6 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 ![Crear mvlab](fase2.1.png)
 
 
----
 
 ## ⚙️ 3. Ajustar recursos de hardware
 
@@ -33,7 +32,7 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 
 Esta máquina no requiere demasiados recursos ya que solo usaremos la terminal.
 
----
+![Crear mvlab](fase2.2.png)
 
 ## 💾 4. Conectar el disco duro existente
 
@@ -43,14 +42,15 @@ Esta máquina no requiere demasiados recursos ya que solo usaremos la terminal.
 
 🚫 **¡No inicies la máquina aún!** Hay que configurar la red primero.
 
----
+![Crear mvlab](fase2.3.png)
 
 ## 🌐 5. Configurar la red de la VM
 
 - Entra a **Configuración** de la máquina virtual.
 - Sección **Red**:
   - **Conectado a**: `Adaptador solo anfitrión (Host-only Adapter)`
-  
+
+![Crear mvlab](fase2.4.png)
 Con esto, tu máquina Metasploitable estará en la **misma red virtual** que tu sistema anfitrión (Windows) y tu Kali Linux, permitiendo escaneo y ataques en red local desde Kali.
 
 ---
