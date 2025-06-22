@@ -20,6 +20,7 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 - Asigna un nombre a la VM (por ejemplo: `metasploitable-lab`).
 - Tipo: `Linux`
 - Versión: `Other Linux (32-bit)`
+![Crear mvlab](fase2.1)
 
 ---
 
