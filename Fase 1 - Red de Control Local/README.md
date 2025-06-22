@@ -34,7 +34,7 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
 
 ```powershell
 # Abrir PowerShell como administrador y ejecutar:
-.\setup_windows.ps1
+.\configurar_vbox_red_local y firewall.ps1
 ```
 
 Este script:
@@ -55,10 +55,10 @@ Este script:
 
 ```bash
 # Dar permisos de ejecución al script
-chmod +x setup_kali.sh
+chmod +x red_kali.sh
 
 # Ejecutar como root o con sudo
-sudo ./setup_kali.sh
+sudo ./red_kali.sh
 ```
 
 Este script:
