@@ -48,7 +48,7 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
 
    ```powershell
    Set-ExecutionPolicy RemoteSigned
-   Responde **"Sí"** o **"Sí a todo"** cuando se te pregunte.
+Responde **"Sí"** o **"Sí a todo"** cuando se te pregunte.
 
 4. **Ejecuta el script de red**  
    Lanza el script con:
