@@ -32,10 +32,29 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
 
 ### 🖥️ 1. Ejecutar en el host Windows
 
-```powershell
-# Abrir PowerShell como administrador y ejecutar:
-.\configurar_vbox_red_local y firewall.ps1
-```
+## 🛠️ Configuración inicial: PowerShell y red de VirtualBox
+
+> ⚠️ **Importante:** Antes de ejecutar el script de configuración de red en PowerShell, asegúrate de permitir la ejecución de scripts locales. Si no haces esto, PowerShell bloqueará la ejecución por motivos de seguridad.
+
+### 📌 Pasos para permitir y ejecutar el script
+
+1. **Abre PowerShell como administrador**  
+   Pulsa Inicio, busca `PowerShell`, haz clic derecho sobre el resultado y selecciona **"Ejecutar como administrador"**.
+
+2. **Ubícate en la carpeta donde tienes el script**
+
+3. **Cambia la política de ejecución para esta sesión**  
+   Esto permite ejecutar scripts locales sin firma:
+
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned
+   Responde **"Sí"** o **"Sí a todo"** cuando se te pregunte.
+
+4. **Ejecuta el script de red**  
+   Lanza el script con:
+
+   ```powershell
+   .\configurar_vbox_red_local_y_firewall.ps1
 
 Este script:
 
