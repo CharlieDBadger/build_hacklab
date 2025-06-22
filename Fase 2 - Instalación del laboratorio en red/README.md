@@ -2,7 +2,7 @@
 
 Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dentro de VirtualBox. Es una máquina vulnerable ideal para practicar técnicas de pentesting en un entorno controlado.
 
----
+-
 
 ## 🐚 1. Descargar Metasploitable 2 (.vmdk)
 
