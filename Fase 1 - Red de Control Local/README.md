@@ -47,8 +47,8 @@ Este repositorio automatiza la configuración de red **Host-Only** entre una má
    Esto permite ejecutar scripts locales sin firma:
 
    ```powershell
-   Set-ExecutionPolicy RemoteSigned
-Responde **"Sí"** o **"Sí a todo"** cuando se te pregunte.
+   Set-ExecutionPolicy RemoteSigned -Scope Process
+Responde **"Sí"** o **"Sí a todo"** cuando se te pregunte, este cambio solo afectará la terminal que tienes abierta.
 
 4. **Ejecuta el script de red**  
    Lanza el script con:
