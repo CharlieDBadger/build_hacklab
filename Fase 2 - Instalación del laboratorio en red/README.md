@@ -12,7 +12,7 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 - **Recomendación:** Mueve el archivo `.vmdk` a la misma carpeta donde tienes las demás máquinas virtuales de VirtualBox (puedes ver la ruta al crear una nueva VM, en el apartado **Carpeta**).  
   ⚠️ **Importante:** Si borras el archivo `.vmdk`, perderás la máquina del laboratorio.
 
-
+![Crear mvlab](fase2.2.png)
 
 ## 📦 2. Crear nueva VM en VirtualBox
 
@@ -32,7 +32,6 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 
 Esta máquina no requiere demasiados recursos ya que solo usaremos la terminal.
 
-![Crear mvlab](fase2.2.png)
 
 ## 💾 4. Conectar el disco duro existente
 
