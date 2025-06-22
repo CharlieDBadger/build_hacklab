@@ -21,7 +21,7 @@ Esta fase consiste en montar un entorno de pruebas con **Metasploitable 2** dent
 - Tipo: `Linux`
 - Versión: `Other Linux (32-bit)`
   
-![Crear mvlab](/fase2.1.png)
+![Crear mvlab](/Fase 2 - Instalación del laboratorio en red/fase2.1.png)
 
 ---
 
